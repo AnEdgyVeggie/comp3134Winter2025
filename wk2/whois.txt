@@ -1,0 +1,493 @@
+Name
+GOOGLE.COM
+Registry Domain ID
+2138514_DOMAIN_COM-VRSN
+Registered On
+1997-09-15T04:00:00Z
+Expires On
+2028-09-14T04:00:00Z
+Updated On
+2019-09-09T15:39:04Z
+Domain Status
+clientDeleteProhibited https://icann.org/epp#clientDeleteProhibited
+
+clientTransferProhibited https://icann.org/epp#clientTransferProhibited
+
+clientUpdateProhibited https://icann.org/epp#clientUpdateProhibited
+
+serverDeleteProhibited https://icann.org/epp#serverDeleteProhibited
+
+serverTransferProhibited https://icann.org/epp#serverTransferProhibited
+
+serverUpdateProhibited https://icann.org/epp#serverUpdateProhibited
+
+Name Servers
+NS1.GOOGLE.COM
+
+NS2.GOOGLE.COM
+
+NS3.GOOGLE.COM
+
+NS4.GOOGLE.COM
+
+==============================================================================
+
+Domain Information
+
+Name
+tacobell.ca
+Registry Domain ID
+D116267-CIRA
+Registered On
+2002-02-13T17:09:03Z
+Expires On
+2025-02-13T05:00:00Z
+Updated On
+2024-01-30T06:42:30Z
+Domain Status
+clientTransferProhibited https://icann.org/epp#clientTransferProhibited
+
+Name Servers
+dns1.cscdns.net
+
+dns2.cscdns.net
+
+Registrant Contact
+
+Name
+TB Canada Company
+Organization
+﹣
+Street
+191 Creditview Road Suite 100
+City
+Vaughan
+State/Province
+ON
+Postal/Zip Code
+L4L9T1
+Country
+CA
+Phone
++1.4166645200
+Fax
++1.4166645200
+Email
+WebAdmin@yum.com
+Administrative Contact
+
+Name
+Web Admin
+Organization
+Yum Brands, Inc.
+Street
+1441 Gardiner Lane
+City
+Louisville
+State/Province
+KY
+Postal/Zip Code
+40213
+Country
+US
+Phone
++1.5028741000
+Fax
++1.5028741000
+Email
+webadmin@yum.com
+Technical Contact
+
+Name
+Web Admin
+Organization
+Yum Brands, Inc.
+Street
+1441 Gardiner Lane
+City
+Louisville
+State/Province
+KY
+Postal/Zip Code
+40213
+Country
+US
+Phone
++1.5028741000
+Fax
++1.5028741000
+Email
+webadmin@yum.com
+Registrar Information
+
+Name
+CSC Corporate Domains (Canada) Company
+Registrar WHOIS Server
+whois.ca.fury.ca
+Registrar URL
+www.cscglobal.com
+IANA ID
+not applicable
+Abuse Contact Email
+domainabuse@cscglobal.com
+Abuse Contact Phone
++1.3026365400
+DNSSEC Information
+
+Delegation Signed
+unsigned
+
+==============================================================================
+
+Domain Information
+
+Name
+amd.ca
+Registry Domain ID
+D311616-CIRA
+Registered On
+2005-09-26T21:58:18Z
+Expires On
+2026-09-26T04:00:00Z
+Updated On
+2024-08-25T09:34:49Z
+Domain Status
+clientDeleteProhibited https://icann.org/epp#clientDeleteProhibited
+
+clientTransferProhibited https://icann.org/epp#clientTransferProhibited
+
+clientUpdateProhibited https://icann.org/epp#clientUpdateProhibited
+
+Name Servers
+ns1.markmonitor.com
+
+ns2.markmonitor.com
+
+ns3.markmonitor.com
+
+ns4.markmonitor.com
+
+ns5.markmonitor.com
+
+ns6.markmonitor.com
+
+ns7.markmonitor.com
+
+Registrant Contact
+
+Name
+AMD Canada
+Organization
+﹣
+Street
+18 Roycroft Way
+City
+Kanata
+State/Province
+ON
+Postal/Zip Code
+K2W1C7
+Country
+CA
+Phone
++1.4087494000
+Fax
+﹣
+Email
+dom-admin@amd.com
+Administrative Contact
+
+Name
+Domain Administrator
+Organization
+Advanced Micro Devices, Inc.
+Street
+2485 Augustine Drive
+City
+Santa Clara
+State/Province
+CA
+Postal/Zip Code
+95054
+Country
+US
+Phone
++1.5126021000
+Fax
++1.5126020560
+Email
+dom-admin@amd.com
+Technical Contact
+
+Name
+Domain Administrator
+Organization
+Advanced Micro Devices, Inc.
+Street
+2485 Augustine Drive
+City
+Santa Clara
+State/Province
+CA
+Postal/Zip Code
+95054
+Country
+US
+Phone
++1.5126021000
+Fax
++1.5126020560
+Email
+dom-admin@amd.com
+Registrar Information
+
+Name
+MarkMonitor International Canada Ltd.
+Registrar WHOIS Server
+whois.ca.fury.ca
+Registrar URL
+Markmonitor.com
+IANA ID
+not applicable
+Abuse Contact Email
+abusecomplaints@markmonitor.com
+Abuse Contact Phone
++1.2083895740
+DNSSEC Information
+
+Delegation Signed
+unsigned
+
+==============================================================================
+
+Domain Information
+
+Name
+nvidia.ca
+Registry Domain ID
+D133868-CIRA
+Registered On
+2003-01-11T17:30:31Z
+Expires On
+2026-01-11T05:00:00Z
+Updated On
+2025-01-04T00:37:29Z
+Domain Status
+clientDeleteProhibited https://icann.org/epp#clientDeleteProhibited
+
+clientTransferProhibited https://icann.org/epp#clientTransferProhibited
+
+clientUpdateProhibited https://icann.org/epp#clientUpdateProhibited
+
+Name Servers
+dns1.p03.nsone.net
+
+dns2.p03.nsone.net
+
+dns3.p03.nsone.net
+
+dns4.p03.nsone.net
+
+Registrant Contact
+
+Name
+Nvidia Corporation (TMA531920)
+Organization
+﹣
+Street
+2701 San Tomas Express Way
+City
+Santa Clara
+State/Province
+CA
+Postal/Zip Code
+95050
+Country
+US
+Phone
++1.4084862888
+Fax
+﹣
+Email
+ktse@nvidia.com
+Administrative Contact
+
+Name
+Kevin Tse
+Organization
+Nvidia Corporation
+Street
+2701 San Tomas Express Way
+City
+Santa Clara
+State/Province
+CA
+Postal/Zip Code
+95050
+Country
+US
+Phone
+4084862888
+Fax
+(408) 486 4888
+Email
+ktse@nvidia.com
+Technical Contact
+
+Name
+International Domain Tech
+Organization
+Safenames Ltd
+Street
+Safenames House, Sunrise Parkway
+City
+Milton Keynes
+State/Province
+Bucks
+Postal/Zip Code
+MK14 6LS
+Country
+GB
+Phone
++44.1908200022
+Fax
+﹣
+Email
+tec@safenames.net
+Registrar Information
+
+Name
+SN Domains Inc
+Registrar WHOIS Server
+whois.ca.fury.ca
+Registrar URL
+www.sndomains.ca
+IANA ID
+not applicable
+Abuse Contact Email
+hugo.vilchez@sndomains.ca
+Abuse Contact Phone
++1.4389235023
+DNSSEC Information
+
+Delegation Signed
+unsigned
+
+==============================================================================
+
+Domain Information
+
+Name
+ontario.ca
+Registry Domain ID
+D174042-CIRA
+Registered On
+2003-08-07T20:37:15Z
+Expires On
+2025-08-07T04:00:00Z
+Updated On
+2024-08-07T04:03:39Z
+Domain Status
+clientTransferProhibited https://icann.org/epp#clientTransferProhibited
+
+clientUpdateProhibited https://icann.org/epp#clientUpdateProhibited
+
+serverDeleteProhibited https://icann.org/epp#serverDeleteProhibited
+
+serverTransferProhibited https://icann.org/epp#serverTransferProhibited
+
+serverUpdateProhibited https://icann.org/epp#serverUpdateProhibited
+
+Name Servers
+edns2.gov.on.ca
+
+edns3.gov.on.ca
+
+edns4.gov.on.ca
+
+Registrant Contact
+
+Name
+His Majesty the King in right of Ontario, Treasury Board Secretariat
+Organization
+His Majesty the King in right of Ontario, Treasury Board Secretariat
+Street
+222 Jarvis Street, LM
+City
+Toronto
+State/Province
+ON
+Postal/Zip Code
+M7A0B6
+Country
+CA
+Phone
++1.6473838341
+Fax
+﹣
+Email
+domain.registration@ontario.ca
+Administrative Contact
+
+Name
+Domain Registrar
+Organization
+His Majesty the King in right of Ontario, Treasury Board Secretariat
+Street
+222 Jarvis Street, LM
+City
+Toronto
+State/Province
+ON
+Postal/Zip Code
+M7A0B6
+Country
+CA
+Phone
++1.6473838341
+Fax
+﹣
+Email
+domain.registration@ontario.ca
+Technical Contact
+
+Name
+Domain Registrar
+Organization
+His Majesty the King in right of Ontario, Treasury Board Secretariat
+Street
+222 Jarvis Street, LM
+City
+Toronto
+State/Province
+ON
+Postal/Zip Code
+M7A0B6
+Country
+CA
+Phone
++1.6473838341
+Fax
+﹣
+Email
+domain.registration@ontario.ca
+Registrar Information
+
+Name
+easyDNS Technologies Inc.
+Registrar WHOIS Server
+whois.ca.fury.ca
+Registrar URL
+www.easydns.ca
+IANA ID
+not applicable
+Abuse Contact Email
+abuse@easydns.com
+Abuse Contact Phone
++1.4165358672
+DNSSEC Information
+
+Delegation Signed
+unsigned
+
+==============================================================================

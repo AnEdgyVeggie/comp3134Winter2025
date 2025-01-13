@@ -1,0 +1,46 @@
+Google.ca
+IPv4: 172.217.12.99
+Location	Sunnyvale, California, United States of America
+AS	AS15169
+AS name	Google LLC
+
+
+IPv6: 2607:f8b0:4005:810::2003
+Location	San Jose, California, United States of America
+AS	AS15169
+AS name	Google LLC
+
+
+========================================================
+
+Tacobell.ca
+IPv4: 13.248.184.10
+Location	Seattle, Washington, United States of America
+AS	AS16509
+AS name	Amazon.com, Inc.
+
+========================================================
+
+AMD.ca
+IPv4: 3.33.139.32
+Location	Seattle, Washington, United States of America
+AS	AS16509
+AS name	Amazon.com, Inc.
+
+========================================================
+
+NVIDIA.ca
+IPv4: 34.194.97.138
+Location	Ashburn, Virginia, United States of America
+AS	AS14618
+AS name	Amazon.com, Inc.
+
+========================================================
+
+ontario.ca
+IPv4: 54.208.81.96
+Location	Ashburn, Virginia, United States of America
+AS	AS14618
+AS name	Amazon.com, Inc.
+
+========================================================
