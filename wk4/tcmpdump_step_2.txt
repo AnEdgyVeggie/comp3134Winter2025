@@ -1,0 +1,11 @@
+root@ubuntu-s-2vcpu-4gb-tor1-01:~# tcpdump -c 5 -i eth0
+tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), snapshot length 262144 bytes
+22:38:01.108203 IP ubuntu-s-2vcpu-4gb-tor1-01.ssh > d57-134-178-25.home.cgocable.net.49834: Flags [P.], seq 3770414197:3770414385, ack 4153020857, win 662, length 188
+22:38:01.115116 IP d57-134-178-25.home.cgocable.net.49834 > ubuntu-s-2vcpu-4gb-tor1-01.ssh: Flags [.], ack 188, win 1026, length 0
+22:38:01.115308 IP d57-134-178-25.home.cgocable.net.49834 > ubuntu-s-2vcpu-4gb-tor1-01.ssh: Flags [P.], seq 1:37, ack 188, win 1026, length 36
+22:38:01.115422 IP ubuntu-s-2vcpu-4gb-tor1-01.ssh > d57-134-178-25.home.cgocable.net.49834: Flags [P.], seq 188:224, ack 37, win 662, length 36
+22:38:01.148730 IP d57-134-178-25.home.cgocable.net.49834 > ubuntu-s-2vcpu-4gb-tor1-01.ssh: Flags [P.], seq 37:73, ack 224, win 1026, length 36
+5 packets captured
+10 packets received by filter
+0 packets dropped by kernel

@@ -1,0 +1,176 @@
+root@ubuntu-s-2vcpu-4gb-tor1-01:~# tcpdump -i eth0 tcp
+tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), snapshot length 262144 bytes
+22:44:53.086898 IP ubuntu-s-2vcpu-4gb-tor1-01.ssh > d57-134-178-25.home.cgocable.net.49834: Flags [P.], seq 3807657141:3807657329, ack 4153243457, win 4253, length 188
+22:44:53.093571 IP d57-134-178-25.home.cgocable.net.49834 > ubuntu-s-2vcpu-4gb-tor1-01.ssh: Flags [.], ack 188, win 5848, length 0
+22:44:53.093784 IP d57-134-178-25.home.cgocable.net.49834 > ubuntu-s-2vcpu-4gb-tor1-01.ssh: Flags [P.], seq 1:37, ack 188, win 5848, length 36
+22:44:53.093930 IP ubuntu-s-2vcpu-4gb-tor1-01.ssh > d57-134-178-25.home.cgocable.net.49834: Flags [P.], seq 188:224, ack 37, win 4253, length 36
+22:44:53.113521 IP d57-134-178-25.home.cgocable.net.49834 > ubuntu-s-2vcpu-4gb-tor1-01.ssh: Flags [P.], seq 37:73, ack 224, win 5848, length 36
+22:44:53.113738 IP ubuntu-s-2vcpu-4gb-tor1-01.ssh > d57-134-178-25.home.cgocable.net.49834: Flags [P.], seq 224:260, ack 73, win 4253, length 36
+22:44:53.143820 IP d57-134-178-25.home.cgocable.net.49834 > ubuntu-s-2vcpu-4gb-tor1-01.ssh: Flags [P.], seq 73:109, ack 260, win 5848, length 36
+22:44:53.144002 IP ubuntu-s-2vcpu-4gb-tor1-01.ssh > d57-134-178-25.home.cgocable.net.49834: Flags [P.], seq 260:296, ack 109, win 4253, length 36
+22:44:53.174036 IP d57-134-178-25.home.cgocable.net.49834 > ubuntu-s-2vcpu-4gb-tor1-01.ssh: Flags [P.], seq 109:145, ack 296, win 5848, length 36
+22:44:53.174224 IP ubuntu-s-2vcpu-4gb-tor1-01.ssh > d57-134-178-25.home.cgocable.net.49834: Flags [P.], seq 296:332, ack 145, win 4253, length 36
+22:44:53.182776 IP ubuntu-s-2vcpu-4gb-tor1-01.ssh > d57-134-178-25.home.cgocable.net.49834: Flags [P.], seq 332:960, ack 145, win 4253, length 628
+22:44:53.182830 IP ubuntu-s-2vcpu-4gb-tor1-01.ssh > d57-134-178-25.home.cgocable.net.49834: Flags [P.], seq 960:1912, ack 145, win 4253, length 952
+22:44:53.189053 IP d57-134-178-25.home.cgocable.net.49834 > ubuntu-s-2vcpu-4gb-tor1-01.ssh: Flags [.], ack 960, win 5851, length 0
+22:44:53.201316 IP 129.18.228.178.45458 > ubuntu-s-2vcpu-4gb-tor1-01.ssh: Flags [.], ack 616712240, win 502, options [nop,nop,TS val 2734293513 ecr 3998228545], length 0
+22:44:53.204034 IP d57-134-178-25.home.cgocable.net.49834 > ubuntu-s-2vcpu-4gb-tor1-01.ssh: Flags [P.], seq 145:181, ack 1912, win 5847, length 36
+22:44:53.205737 IP ubuntu-s-2vcpu-4gb-tor1-01.ssh > d57-134-178-25.home.cgocable.net.49834: Flags [P.], seq 1912:1948, ack 181, win 4253, length 36
+22:44:53.218198 IP ubuntu-s-2vcpu-4gb-tor1-01.ssh > 129.18.228.178.45458: Flags [P.], seq 1:40, ack 0, win 510, options [nop,nop,TS val 3998228758 ecr 2734293513], length 39: SSH: SSH-2.0-OpenSSH_9.7p1 Ubuntu-7ubuntu4
+22:44:53.234069 IP d57-134-178-25.home.cgocable.net.49834 > ubuntu-s-2vcpu-4gb-tor1-01.ssh: Flags [P.], seq 181:217, ack 1948, win 5847, length 36
+22:44:53.234231 IP ubuntu-s-2vcpu-4gb-tor1-01.ssh > d57-134-178-25.home.cgocable.net.49834: Flags [P.], seq 1948:1984, ack 217, win 4253, length 36
+22:44:53.264314 IP d57-134-178-25.home.cgocable.net.49834 > ubuntu-s-2vcpu-4gb-tor1-01.ssh: Flags [P.], seq 217:253, ack 1984, win 5847, length 36
+22:44:53.264487 IP ubuntu-s-2vcpu-4gb-tor1-01.ssh > d57-134-178-25.home.cgocable.net.49834: Flags [P.], seq 1984:2020, ack 253, win 4253, length 36
+22:44:53.283149 IP ubuntu-s-2vcpu-4gb-tor1-01.ssh > d57-134-178-25.home.cgocable.net.49834: Flags [P.], seq 2020:2488, ack 253, win 4253, length 468
+22:44:53.283774 IP ubuntu-s-2vcpu-4gb-tor1-01.35700 > 67.207.67.3.domain: Flags [S], seq 2801984218, win 64240, options [mss 1460,sackOK,TS val 3448306624 ecr 0,nop,wscale 7,tfo  cookiereq,nop,nop], length 0
+22:44:53.284976 IP 67.207.67.3.domain > ubuntu-s-2vcpu-4gb-tor1-01.35700: Flags [S.], seq 3835403539, ack 2801984219, win 65160, options [mss 1460,sackOK,TS val 523532675 ecr 3448306624,nop,wscale 9], length 0
+22:44:53.285027 IP ubuntu-s-2vcpu-4gb-tor1-01.35700 > 67.207.67.3.domain: Flags [.], ack 1, win 502, options [nop,nop,TS val 3448306625 ecr 523532675], length 0
+22:44:53.285092 IP ubuntu-s-2vcpu-4gb-tor1-01.35700 > 67.207.67.3.domain: Flags [P.], seq 1:48, ack 1, win 502, options [nop,nop,TS val 3448306625 ecr 523532675], length 47 49668+ PTR? 178.228.18.129.in-addr.arpa. (45)
+22:44:53.285369 IP 67.207.67.3.domain > ubuntu-s-2vcpu-4gb-tor1-01.35700: Flags [.], ack 48, win 128, options [nop,nop,TS val 523532675 ecr 3448306625], length 0
+22:44:53.285624 IP 67.207.67.3.domain > ubuntu-s-2vcpu-4gb-tor1-01.35700: Flags [P.], seq 1:102, ack 48, win 128, options [nop,nop,TS val 523532676 ecr 3448306625], length 101 49668 NXDomain 0/1/0 (99)
+22:44:53.285649 IP ubuntu-s-2vcpu-4gb-tor1-01.35700 > 67.207.67.3.domain: Flags [.], ack 102, win 502, options [nop,nop,TS val 3448306626 ecr 523532676], length 0
+22:44:53.286257 IP ubuntu-s-2vcpu-4gb-tor1-01.ssh > d57-134-178-25.home.cgocable.net.49834: Flags [P.], seq 2488:2700, ack 253, win 4253, length 212
+22:44:53.286293 IP ubuntu-s-2vcpu-4gb-tor1-01.ssh > d57-134-178-25.home.cgocable.net.49834: Flags [P.], seq 2700:3292, ack 253, win 4253, length 592
+22:44:53.286324 IP ubuntu-s-2vcpu-4gb-tor1-01.ssh > d57-134-178-25.home.cgocable.net.49834: Flags [P.], seq 3292:3328, ack 253, win 4253, length 36
+22:44:53.286362 IP ubuntu-s-2vcpu-4gb-tor1-01.ssh > d57-134-178-25.home.cgocable.net.49834: Flags [P.], seq 3328:3516, ack 253, win 4253, length 188
+22:44:53.286376 IP ubuntu-s-2vcpu-4gb-tor1-01.ssh > d57-134-178-25.home.cgocable.net.49834: Flags [P.], seq 3516:3704, ack 253, win 4253, length 188
+22:44:53.286406 IP ubuntu-s-2vcpu-4gb-tor1-01.ssh > d57-134-178-25.home.cgocable.net.49834: Flags [P.], seq 3704:3892, ack 253, win 4253, length 188
+22:44:53.286420 IP ubuntu-s-2vcpu-4gb-tor1-01.ssh > d57-134-178-25.home.cgocable.net.49834: Flags [P.], seq 3892:4080, ack 253, win 4253, length 188
+22:44:53.289387 IP d57-134-178-25.home.cgocable.net.49834 > ubuntu-s-2vcpu-4gb-tor1-01.ssh: Flags [.], ack 2488, win 5851, length 0
+22:44:53.289589 IP d57-134-178-25.home.cgocable.net.49834 > ubuntu-s-2vcpu-4gb-tor1-01.ssh: Flags [P.], seq 253:289, ack 2488, win 5851, length 36
+22:44:53.289692 IP ubuntu-s-2vcpu-4gb-tor1-01.ssh > d57-134-178-25.home.cgocable.net.49834: Flags [P.], seq 4080:4116, ack 289, win 4253, length 36
+22:44:53.292470 IP d57-134-178-25.home.cgocable.net.49834 > ubuntu-s-2vcpu-4gb-tor1-01.ssh: Flags [.], ack 3892, win 5845, length 0
+22:44:53.292651 IP d57-134-178-25.home.cgocable.net.49834 > ubuntu-s-2vcpu-4gb-tor1-01.ssh: Flags [.], ack 4080, win 5851, length 0
+22:44:53.296449 IP d57-134-178-25.home.cgocable.net.49834 > ubuntu-s-2vcpu-4gb-tor1-01.ssh: Flags [.], ack 4116, win 5851, length 0
+22:44:53.324678 IP d57-134-178-25.home.cgocable.net.49834 > ubuntu-s-2vcpu-4gb-tor1-01.ssh: Flags [P.], seq 289:325, ack 4116, win 5851, length 36
+22:44:53.324887 IP ubuntu-s-2vcpu-4gb-tor1-01.ssh > d57-134-178-25.home.cgocable.net.49834: Flags [P.], seq 4116:4152, ack 325, win 4253, length 36
+22:44:53.356165 IP d57-134-178-25.home.cgocable.net.49834 > ubuntu-s-2vcpu-4gb-tor1-01.ssh: Flags [P.], seq 325:361, ack 4152, win 5851, length 36
+22:44:53.356346 IP ubuntu-s-2vcpu-4gb-tor1-01.ssh > d57-134-178-25.home.cgocable.net.49834: Flags [P.], seq 4152:4188, ack 361, win 4253, length 36
+22:44:53.386359 IP d57-134-178-25.home.cgocable.net.49834 > ubuntu-s-2vcpu-4gb-tor1-01.ssh: Flags [P.], seq 361:397, ack 4188, win 5850, length 36
+22:44:53.386548 IP ubuntu-s-2vcpu-4gb-tor1-01.ssh > d57-134-178-25.home.cgocable.net.49834: Flags [P.], seq 4188:4224, ack 397, win 4253, length 36
+22:44:53.387089 IP ubuntu-s-2vcpu-4gb-tor1-01.ssh > d57-134-178-25.home.cgocable.net.49834: Flags [P.], seq 4224:4412, ack 397, win 4253, length 188
+22:44:53.387486 IP ubuntu-s-2vcpu-4gb-tor1-01.35700 > 67.207.67.3.domain: Flags [P.], seq 48:92, ack 102, win 502, options [nop,nop,TS val 3448306727 ecr 523532676], length 44 62200+ PTR? 3.67.207.67.in-addr.arpa. (42)
+22:44:53.393389 IP d57-134-178-25.home.cgocable.net.49834 > ubuntu-s-2vcpu-4gb-tor1-01.ssh: Flags [.], ack 4412, win 5850, length 0
+22:44:53.394379 IP 67.207.67.3.domain > ubuntu-s-2vcpu-4gb-tor1-01.35700: Flags [P.], seq 102:213, ack 92, win 128, options [nop,nop,TS val 523532778 ecr 3448306727], length 111 62200 NXDomain 0/1/0 (109)
+22:44:53.394413 IP ubuntu-s-2vcpu-4gb-tor1-01.35700 > 67.207.67.3.domain: Flags [.], ack 213, win 502, options [nop,nop,TS val 3448306734 ecr 523532778], length 0
+22:44:53.404120 IP ubuntu-s-2vcpu-4gb-tor1-01.ssh > d57-134-178-25.home.cgocable.net.49834: Flags [P.], seq 4412:4656, ack 397, win 4253, length 244
+22:44:53.404158 IP ubuntu-s-2vcpu-4gb-tor1-01.ssh > d57-134-178-25.home.cgocable.net.49834: Flags [P.], seq 4656:5068, ack 397, win 4253, length 412
+22:44:53.404203 IP ubuntu-s-2vcpu-4gb-tor1-01.ssh > d57-134-178-25.home.cgocable.net.49834: Flags [P.], seq 5068:5328, ack 397, win 4253, length 260
+22:44:53.404227 IP ubuntu-s-2vcpu-4gb-tor1-01.ssh > d57-134-178-25.home.cgocable.net.49834: Flags [P.], seq 5328:5524, ack 397, win 4253, length 196
+22:44:53.404254 IP ubuntu-s-2vcpu-4gb-tor1-01.ssh > d57-134-178-25.home.cgocable.net.49834: Flags [P.], seq 5524:5560, ack 397, win 4253, length 36
+22:44:53.404316 IP ubuntu-s-2vcpu-4gb-tor1-01.ssh > d57-134-178-25.home.cgocable.net.49834: Flags [P.], seq 5560:5804, ack 397, win 4253, length 244
+22:44:53.404336 IP ubuntu-s-2vcpu-4gb-tor1-01.ssh > d57-134-178-25.home.cgocable.net.49834: Flags [P.], seq 5804:6000, ack 397, win 4253, length 196
+22:44:53.404357 IP ubuntu-s-2vcpu-4gb-tor1-01.ssh > d57-134-178-25.home.cgocable.net.49834: Flags [P.], seq 6000:6036, ack 397, win 4253, length 36
+22:44:53.404368 IP ubuntu-s-2vcpu-4gb-tor1-01.ssh > d57-134-178-25.home.cgocable.net.49834: Flags [P.], seq 6036:6224, ack 397, win 4253, length 188
+22:44:53.404390 IP ubuntu-s-2vcpu-4gb-tor1-01.ssh > d57-134-178-25.home.cgocable.net.49834: Flags [P.], seq 6224:6412, ack 397, win 4253, length 188
+22:44:53.404412 IP ubuntu-s-2vcpu-4gb-tor1-01.ssh > d57-134-178-25.home.cgocable.net.49834: Flags [P.], seq 6412:6600, ack 397, win 4253, length 188
+22:44:53.404712 IP ubuntu-s-2vcpu-4gb-tor1-01.ssh > d57-134-178-25.home.cgocable.net.49834: Flags [P.], seq 6600:8956, ack 397, win 4253, length 2356
+22:44:53.410534 IP d57-134-178-25.home.cgocable.net.49834 > ubuntu-s-2vcpu-4gb-tor1-01.ssh: Flags [.], ack 5560, win 5851, length 0
+22:44:53.410805 IP d57-134-178-25.home.cgocable.net.49834 > ubuntu-s-2vcpu-4gb-tor1-01.ssh: Flags [P.], seq 397:433, ack 5560, win 5851, length 36
+22:44:53.410805 IP d57-134-178-25.home.cgocable.net.49834 > ubuntu-s-2vcpu-4gb-tor1-01.ssh: Flags [.], ack 6000, win 5849, length 0
+22:44:53.410805 IP d57-134-178-25.home.cgocable.net.49834 > ubuntu-s-2vcpu-4gb-tor1-01.ssh: Flags [.], ack 6600, win 5847, length 0
+22:44:53.410805 IP d57-134-178-25.home.cgocable.net.49834 > ubuntu-s-2vcpu-4gb-tor1-01.ssh: Flags [.], ack 8956, win 5851, length 0
+22:44:53.410934 IP ubuntu-s-2vcpu-4gb-tor1-01.ssh > d57-134-178-25.home.cgocable.net.49834: Flags [P.], seq 8956:8992, ack 433, win 4253, length 36
+22:44:53.414146 IP 129.18.228.178.45458 > ubuntu-s-2vcpu-4gb-tor1-01.ssh: Flags [.], ack 40, win 502, options [nop,nop,TS val 2734293726 ecr 3998228758], length 0
+22:44:53.431673 IP d57-134-178-25.home.cgocable.net.49834 > ubuntu-s-2vcpu-4gb-tor1-01.ssh: Flags [P.], seq 433:469, ack 8992, win 5851, length 36
+22:44:53.431850 IP ubuntu-s-2vcpu-4gb-tor1-01.ssh > d57-134-178-25.home.cgocable.net.49834: Flags [P.], seq 8992:9028, ack 469, win 4253, length 36
+22:44:53.461885 IP d57-134-178-25.home.cgocable.net.49834 > ubuntu-s-2vcpu-4gb-tor1-01.ssh: Flags [P.], seq 469:505, ack 9028, win 5851, length 36
+22:44:53.462082 IP ubuntu-s-2vcpu-4gb-tor1-01.ssh > d57-134-178-25.home.cgocable.net.49834: Flags [P.], seq 9028:9064, ack 505, win 4253, length 36
+22:44:53.491183 IP d57-134-178-25.home.cgocable.net.49834 > ubuntu-s-2vcpu-4gb-tor1-01.ssh: Flags [P.], seq 505:541, ack 9064, win 5850, length 36
+22:44:53.491276 IP ubuntu-s-2vcpu-4gb-tor1-01.ssh > d57-134-178-25.home.cgocable.net.49834: Flags [P.], seq 9064:13196, ack 541, win 4253, length 4132
+22:44:53.491348 IP ubuntu-s-2vcpu-4gb-tor1-01.ssh > d57-134-178-25.home.cgocable.net.49834: Flags [P.], seq 13196:13436, ack 541, win 4253, length 240
+22:44:53.498213 IP d57-134-178-25.home.cgocable.net.49834 > ubuntu-s-2vcpu-4gb-tor1-01.ssh: Flags [.], ack 13436, win 5851, length 0
+22:44:53.523255 IP d57-134-178-25.home.cgocable.net.49834 > ubuntu-s-2vcpu-4gb-tor1-01.ssh: Flags [P.], seq 541:577, ack 13436, win 5851, length 36
+22:44:53.523427 IP ubuntu-s-2vcpu-4gb-tor1-01.ssh > d57-134-178-25.home.cgocable.net.49834: Flags [P.], seq 13436:13472, ack 577, win 4253, length 36
+22:44:53.553386 IP d57-134-178-25.home.cgocable.net.49834 > ubuntu-s-2vcpu-4gb-tor1-01.ssh: Flags [P.], seq 577:613, ack 13472, win 5851, length 36
+22:44:53.553562 IP ubuntu-s-2vcpu-4gb-tor1-01.ssh > d57-134-178-25.home.cgocable.net.49834: Flags [P.], seq 13472:13508, ack 613, win 4253, length 36
+22:44:53.560190 IP host-91-143-75-146.2i3.net.56994 > ubuntu-s-2vcpu-4gb-tor1-01.epmap: Flags [SEW], seq 3089256747, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+22:44:53.560246 IP ubuntu-s-2vcpu-4gb-tor1-01.epmap > host-91-143-75-146.2i3.net.56994: Flags [R.], seq 0, ack 3089256748, win 0, length 0
+22:44:53.584684 IP d57-134-178-25.home.cgocable.net.49834 > ubuntu-s-2vcpu-4gb-tor1-01.ssh: Flags [P.], seq 613:649, ack 13508, win 5851, length 36
+22:44:53.584844 IP ubuntu-s-2vcpu-4gb-tor1-01.ssh > d57-134-178-25.home.cgocable.net.49834: Flags [P.], seq 13508:13544, ack 649, win 4253, length 36
+22:44:53.595249 IP ubuntu-s-2vcpu-4gb-tor1-01.ssh > d57-134-178-25.home.cgocable.net.49834: Flags [P.], seq 13544:14764, ack 649, win 4253, length 1220
+22:44:53.595537 IP ubuntu-s-2vcpu-4gb-tor1-01.35700 > 67.207.67.3.domain: Flags [P.], seq 92:138, ack 213, win 502, options [nop,nop,TS val 3448306935 ecr 523532778], length 46 47255+ PTR? 146.75.143.91.in-addr.arpa. (44)
+22:44:53.601739 IP d57-134-178-25.home.cgocable.net.49834 > ubuntu-s-2vcpu-4gb-tor1-01.ssh: Flags [.], ack 14764, win 5846, length 0
+22:44:53.614826 IP d57-134-178-25.home.cgocable.net.49834 > ubuntu-s-2vcpu-4gb-tor1-01.ssh: Flags [P.], seq 649:685, ack 14764, win 5846, length 36
+22:44:53.614989 IP ubuntu-s-2vcpu-4gb-tor1-01.ssh > d57-134-178-25.home.cgocable.net.49834: Flags [P.], seq 14764:14800, ack 685, win 4253, length 36
+22:44:53.638603 IP 67.207.67.3.domain > ubuntu-s-2vcpu-4gb-tor1-01.35700: Flags [.], ack 138, win 128, options [nop,nop,TS val 523533029 ecr 3448306935], length 0
+22:44:53.643827 IP d57-134-178-25.home.cgocable.net.49834 > ubuntu-s-2vcpu-4gb-tor1-01.ssh: Flags [P.], seq 685:721, ack 14800, win 5846, length 36
+22:44:53.644001 IP ubuntu-s-2vcpu-4gb-tor1-01.ssh > d57-134-178-25.home.cgocable.net.49834: Flags [P.], seq 14800:14836, ack 721, win 4253, length 36
+22:44:53.674895 IP d57-134-178-25.home.cgocable.net.49834 > ubuntu-s-2vcpu-4gb-tor1-01.ssh: Flags [P.], seq 721:757, ack 14836, win 5845, length 36
+22:44:53.675055 IP ubuntu-s-2vcpu-4gb-tor1-01.ssh > d57-134-178-25.home.cgocable.net.49834: Flags [P.], seq 14836:14872, ack 757, win 4253, length 36
+22:44:53.704259 IP d57-134-178-25.home.cgocable.net.49834 > ubuntu-s-2vcpu-4gb-tor1-01.ssh: Flags [P.], seq 757:793, ack 14872, win 5845, length 36
+22:44:53.704452 IP ubuntu-s-2vcpu-4gb-tor1-01.ssh > d57-134-178-25.home.cgocable.net.49834: Flags [P.], seq 14872:14908, ack 793, win 4253, length 36
+22:44:53.719496 IP 67.207.67.3.domain > ubuntu-s-2vcpu-4gb-tor1-01.35700: Flags [P.], seq 213:299, ack 138, win 128, options [nop,nop,TS val 523533109 ecr 3448306935], length 86 47255 1/0/0 PTR host-91-143-75-146.2i3.net. (84)
+22:44:53.719547 IP ubuntu-s-2vcpu-4gb-tor1-01.35700 > 67.207.67.3.domain: Flags [.], ack 299, win 502, options [nop,nop,TS val 3448307059 ecr 523533109], length 0
+22:44:53.720270 IP ubuntu-s-2vcpu-4gb-tor1-01.ssh > d57-134-178-25.home.cgocable.net.49834: Flags [P.], seq 14908:17144, ack 793, win 4253, length 2236
+22:44:53.726325 IP d57-134-178-25.home.cgocable.net.49834 > ubuntu-s-2vcpu-4gb-tor1-01.ssh: Flags [.], ack 17144, win 5851, length 0
+22:44:53.726585 IP d57-134-178-25.home.cgocable.net.49834 > ubuntu-s-2vcpu-4gb-tor1-01.ssh: Flags [P.], seq 793:829, ack 17144, win 5851, length 36
+22:44:53.726688 IP ubuntu-s-2vcpu-4gb-tor1-01.ssh > d57-134-178-25.home.cgocable.net.49834: Flags [P.], seq 17144:17180, ack 829, win 4253, length 36
+22:44:53.750565 IP d57-134-178-25.home.cgocable.net.49834 > ubuntu-s-2vcpu-4gb-tor1-01.ssh: Flags [P.], seq 829:865, ack 17180, win 5851, length 36
+22:44:53.750762 IP ubuntu-s-2vcpu-4gb-tor1-01.ssh > d57-134-178-25.home.cgocable.net.49834: Flags [P.], seq 17180:17216, ack 865, win 4253, length 36
+22:44:53.779568 IP d57-134-178-25.home.cgocable.net.49834 > ubuntu-s-2vcpu-4gb-tor1-01.ssh: Flags [P.], seq 865:901, ack 17216, win 5851, length 36
+22:44:53.779729 IP ubuntu-s-2vcpu-4gb-tor1-01.ssh > d57-134-178-25.home.cgocable.net.49834: Flags [P.], seq 17216:17252, ack 901, win 4253, length 36
+22:44:53.803055 IP ubuntu-s-2vcpu-4gb-tor1-01.ssh > d57-134-178-25.home.cgocable.net.49834: Flags [P.], seq 17252:19168, ack 901, win 4253, length 1916
+22:44:53.809766 IP d57-134-178-25.home.cgocable.net.49834 > ubuntu-s-2vcpu-4gb-tor1-01.ssh: Flags [.], ack 19168, win 5851, length 0
+22:44:53.809993 IP d57-134-178-25.home.cgocable.net.49834 > ubuntu-s-2vcpu-4gb-tor1-01.ssh: Flags [P.], seq 901:937, ack 19168, win 5851, length 36
+22:44:53.810173 IP ubuntu-s-2vcpu-4gb-tor1-01.ssh > d57-134-178-25.home.cgocable.net.49834: Flags [P.], seq 19168:19204, ack 937, win 4253, length 36
+22:44:53.841032 IP d57-134-178-25.home.cgocable.net.49834 > ubuntu-s-2vcpu-4gb-tor1-01.ssh: Flags [P.], seq 937:973, ack 19204, win 5851, length 36
+22:44:53.841180 IP ubuntu-s-2vcpu-4gb-tor1-01.ssh > d57-134-178-25.home.cgocable.net.49834: Flags [P.], seq 19204:19240, ack 973, win 4253, length 36
+22:44:53.871133 IP d57-134-178-25.home.cgocable.net.49834 > ubuntu-s-2vcpu-4gb-tor1-01.ssh: Flags [P.], seq 973:1009, ack 19240, win 5851, length 36
+22:44:53.871285 IP ubuntu-s-2vcpu-4gb-tor1-01.ssh > d57-134-178-25.home.cgocable.net.49834: Flags [P.], seq 19240:19276, ack 1009, win 4253, length 36
+22:44:53.901518 IP d57-134-178-25.home.cgocable.net.49834 > ubuntu-s-2vcpu-4gb-tor1-01.ssh: Flags [P.], seq 1009:1045, ack 19276, win 5850, length 36
+22:44:53.901734 IP ubuntu-s-2vcpu-4gb-tor1-01.ssh > d57-134-178-25.home.cgocable.net.49834: Flags [P.], seq 19276:19312, ack 1045, win 4253, length 36
+22:44:53.907092 IP ubuntu-s-2vcpu-4gb-tor1-01.ssh > d57-134-178-25.home.cgocable.net.49834: Flags [P.], seq 19312:20844, ack 1045, win 4253, length 1532
+22:44:53.913326 IP d57-134-178-25.home.cgocable.net.49834 > ubuntu-s-2vcpu-4gb-tor1-01.ssh: Flags [.], ack 20844, win 5851, length 0
+22:44:53.930479 IP d57-134-178-25.home.cgocable.net.49834 > ubuntu-s-2vcpu-4gb-tor1-01.ssh: Flags [P.], seq 1045:1081, ack 20844, win 5851, length 36
+22:44:53.930662 IP ubuntu-s-2vcpu-4gb-tor1-01.ssh > d57-134-178-25.home.cgocable.net.49834: Flags [P.], seq 20844:20880, ack 1081, win 4253, length 36
+22:44:53.960628 IP d57-134-178-25.home.cgocable.net.49834 > ubuntu-s-2vcpu-4gb-tor1-01.ssh: Flags [P.], seq 1081:1117, ack 20880, win 5851, length 36
+22:44:53.960807 IP ubuntu-s-2vcpu-4gb-tor1-01.ssh > d57-134-178-25.home.cgocable.net.49834: Flags [P.], seq 20880:20916, ack 1117, win 4253, length 36
+22:44:53.990766 IP d57-134-178-25.home.cgocable.net.49834 > ubuntu-s-2vcpu-4gb-tor1-01.ssh: Flags [P.], seq 1117:1153, ack 20916, win 5851, length 36
+22:44:53.990947 IP ubuntu-s-2vcpu-4gb-tor1-01.ssh > d57-134-178-25.home.cgocable.net.49834: Flags [P.], seq 20916:20952, ack 1153, win 4253, length 36
+22:44:54.011060 IP ubuntu-s-2vcpu-4gb-tor1-01.ssh > d57-134-178-25.home.cgocable.net.49834: Flags [P.], seq 20952:22188, ack 1153, win 4253, length 1236
+22:44:54.017860 IP d57-134-178-25.home.cgocable.net.49834 > ubuntu-s-2vcpu-4gb-tor1-01.ssh: Flags [.], ack 22188, win 5846, length 0
+22:44:54.018046 IP d57-134-178-25.home.cgocable.net.49834 > ubuntu-s-2vcpu-4gb-tor1-01.ssh: Flags [P.], seq 1153:1189, ack 22188, win 5846, length 36
+22:44:54.018167 IP ubuntu-s-2vcpu-4gb-tor1-01.ssh > d57-134-178-25.home.cgocable.net.49834: Flags [P.], seq 22188:22224, ack 1189, win 4253, length 36
+22:44:54.037514 IP d57-134-178-25.home.cgocable.net.49834 > ubuntu-s-2vcpu-4gb-tor1-01.ssh: Flags [P.], seq 1189:1225, ack 22224, win 5846, length 36
+22:44:54.037709 IP ubuntu-s-2vcpu-4gb-tor1-01.ssh > d57-134-178-25.home.cgocable.net.49834: Flags [P.], seq 22224:22260, ack 1225, win 4253, length 36
+22:44:54.066458 IP d57-134-178-25.home.cgocable.net.49834 > ubuntu-s-2vcpu-4gb-tor1-01.ssh: Flags [P.], seq 1225:1261, ack 22260, win 5845, length 36
+22:44:54.066682 IP ubuntu-s-2vcpu-4gb-tor1-01.ssh > d57-134-178-25.home.cgocable.net.49834: Flags [P.], seq 22260:22296, ack 1261, win 4253, length 36
+22:44:54.097613 IP d57-134-178-25.home.cgocable.net.49834 > ubuntu-s-2vcpu-4gb-tor1-01.ssh: Flags [P.], seq 1261:1297, ack 22296, win 5845, length 36
+22:44:54.097777 IP ubuntu-s-2vcpu-4gb-tor1-01.ssh > d57-134-178-25.home.cgocable.net.49834: Flags [P.], seq 22296:22332, ack 1297, win 4253, length 36
+22:44:54.115033 IP ubuntu-s-2vcpu-4gb-tor1-01.ssh > d57-134-178-25.home.cgocable.net.49834: Flags [P.], seq 22332:23872, ack 1297, win 4253, length 1540
+22:44:54.121586 IP d57-134-178-25.home.cgocable.net.49834 > ubuntu-s-2vcpu-4gb-tor1-01.ssh: Flags [.], ack 23872, win 5851, length 0
+22:44:54.121633 IP d57-134-178-25.home.cgocable.net.49834 > ubuntu-s-2vcpu-4gb-tor1-01.ssh: Flags [P.], seq 1297:1333, ack 23872, win 5851, length 36
+22:44:54.121780 IP ubuntu-s-2vcpu-4gb-tor1-01.ssh > d57-134-178-25.home.cgocable.net.49834: Flags [P.], seq 23872:23908, ack 1333, win 4253, length 36
+22:44:54.142499 IP d57-134-178-25.home.cgocable.net.49834 > ubuntu-s-2vcpu-4gb-tor1-01.ssh: Flags [P.], seq 1333:1369, ack 23908, win 5851, length 36
+22:44:54.142720 IP ubuntu-s-2vcpu-4gb-tor1-01.ssh > d57-134-178-25.home.cgocable.net.49834: Flags [P.], seq 23908:23944, ack 1369, win 4253, length 36
+22:44:54.156914 IP host-91-143-75-146.2i3.net.56994 > ubuntu-s-2vcpu-4gb-tor1-01.epmap: Flags [S], seq 3089256747, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+22:44:54.156954 IP ubuntu-s-2vcpu-4gb-tor1-01.epmap > host-91-143-75-146.2i3.net.56994: Flags [R.], seq 0, ack 1, win 0, length 0
+22:44:54.173560 IP d57-134-178-25.home.cgocable.net.49834 > ubuntu-s-2vcpu-4gb-tor1-01.ssh: Flags [P.], seq 1369:1405, ack 23944, win 5851, length 36
+22:44:54.173734 IP ubuntu-s-2vcpu-4gb-tor1-01.ssh > d57-134-178-25.home.cgocable.net.49834: Flags [P.], seq 23944:23980, ack 1405, win 4253, length 36
+22:44:54.202718 IP d57-134-178-25.home.cgocable.net.49834 > ubuntu-s-2vcpu-4gb-tor1-01.ssh: Flags [P.], seq 1405:1441, ack 23980, win 5850, length 36
+22:44:54.202877 IP ubuntu-s-2vcpu-4gb-tor1-01.ssh > d57-134-178-25.home.cgocable.net.49834: Flags [P.], seq 23980:24016, ack 1441, win 4253, length 36
+22:44:54.219001 IP ubuntu-s-2vcpu-4gb-tor1-01.ssh > d57-134-178-25.home.cgocable.net.49834: Flags [P.], seq 24016:25868, ack 1441, win 4253, length 1852
+22:44:54.225888 IP d57-134-178-25.home.cgocable.net.49834 > ubuntu-s-2vcpu-4gb-tor1-01.ssh: Flags [.], ack 25868, win 5851, length 0
+22:44:54.226104 IP d57-134-178-25.home.cgocable.net.49834 > ubuntu-s-2vcpu-4gb-tor1-01.ssh: Flags [P.], seq 1441:1477, ack 25868, win 5851, length 36
+22:44:54.226222 IP ubuntu-s-2vcpu-4gb-tor1-01.ssh > d57-134-178-25.home.cgocable.net.49834: Flags [P.], seq 25868:25904, ack 1477, win 4253, length 36
+22:44:54.248098 IP d57-134-178-25.home.cgocable.net.49834 > ubuntu-s-2vcpu-4gb-tor1-01.ssh: Flags [P.], seq 1477:1513, ack 25904, win 5851, length 36
+22:44:54.248246 IP ubuntu-s-2vcpu-4gb-tor1-01.ssh > d57-134-178-25.home.cgocable.net.49834: Flags [P.], seq 25904:25940, ack 1513, win 4253, length 36
+22:44:54.278664 IP d57-134-178-25.home.cgocable.net.49834 > ubuntu-s-2vcpu-4gb-tor1-01.ssh: Flags [P.], seq 1513:1549, ack 25940, win 5851, length 36
+22:44:54.278815 IP ubuntu-s-2vcpu-4gb-tor1-01.ssh > d57-134-178-25.home.cgocable.net.49834: Flags [P.], seq 25940:25976, ack 1549, win 4253, length 36
+22:44:54.307682 IP d57-134-178-25.home.cgocable.net.49834 > ubuntu-s-2vcpu-4gb-tor1-01.ssh: Flags [P.], seq 1549:1585, ack 25976, win 5850, length 36
+22:44:54.307842 IP ubuntu-s-2vcpu-4gb-tor1-01.ssh > d57-134-178-25.home.cgocable.net.49834: Flags [P.], seq 25976:26012, ack 1585, win 4253, length 36
+22:44:54.322999 IP ubuntu-s-2vcpu-4gb-tor1-01.ssh > d57-134-178-25.home.cgocable.net.49834: Flags [P.], seq 26012:27552, ack 1585, win 4253, length 1540
+22:44:54.330010 IP d57-134-178-25.home.cgocable.net.49834 > ubuntu-s-2vcpu-4gb-tor1-01.ssh: Flags [.], ack 27552, win 5851, length 0
+22:44:54.330167 IP d57-134-178-25.home.cgocable.net.49834 > ubuntu-s-2vcpu-4gb-tor1-01.ssh: Flags [P.], seq 1585:1621, ack 27552, win 5851, length 36
+22:44:54.330324 IP ubuntu-s-2vcpu-4gb-tor1-01.ssh > d57-134-178-25.home.cgocable.net.49834: Flags [P.], seq 27552:27588, ack 1621, win 4253, length 36
+22:44:54.353435 IP d57-134-178-25.home.cgocable.net.49834 > ubuntu-s-2vcpu-4gb-tor1-01.ssh: Flags [P.], seq 1621:1657, ack 27588, win 5851, length 36
+22:44:54.353588 IP ubuntu-s-2vcpu-4gb-tor1-01.ssh > d57-134-178-25.home.cgocable.net.49834: Flags [P.], seq 27588:27624, ack 1657, win 4253, length 36
+22:44:54.384325 IP d57-134-178-25.home.cgocable.net.49834 > ubuntu-s-2vcpu-4gb-tor1-01.ssh: Flags [P.], seq 1657:1693, ack 27624, win 5851, length 36
+22:44:54.384507 IP ubuntu-s-2vcpu-4gb-tor1-01.ssh > d57-134-178-25.home.cgocable.net.49834: Flags [P.], seq 27624:27660, ack 1693, win 4253, length 36
+22:44:54.414590 IP d57-134-178-25.home.cgocable.net.49834 > ubuntu-s-2vcpu-4gb-tor1-01.ssh: Flags [P.], seq 1693:1729, ack 27660, win 5850, length 36
+22:44:54.414744 IP ubuntu-s-2vcpu-4gb-tor1-01.ssh > d57-134-178-25.home.cgocable.net.49834: Flags [P.], seq 27660:27696, ack 1729, win 4253, length 36
+^C
+170 packets captured
+176 packets received by filter
