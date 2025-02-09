@@ -1,0 +1,33 @@
+$ sudo systemctl restart ssh 
+
+$ ssh root@143.110.210.54 -p 2222
+root@143.110.210.54's password:
+
+Welcome to Ubuntu 24.10 (GNU/Linux 6.11.0-9-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/pro
+
+ System information as of Sun Feb  9 15:12:16 UTC 2025
+
+  System load:  0.0               Processes:             104
+  Usage of /:   9.3% of 23.10GB   Users logged in:       0
+  Memory usage: 25%               IPv4 address for eth0: 143.110.210.54
+  Swap usage:   0%                IPv4 address for eth0: 10.20.0.6
+
+60 updates can be applied immediately.
+To see these additional updates run: apt list --upgradable
+
+
+*** System restart required ***
+Last login: Mon Feb  3 20:56:08 2025 from 57.134.178.25
+root@ubuntu-s-1vcpu-1gb-tor1-01:~# ufw status
+Status: active
+
+To                         Action      From
+--                         ------      ----
+2222/tcp                   ALLOW       Anywhere
+2222/tcp (v6)              ALLOW       Anywhere (v6)
+
+root@ubuntu-s-1vcpu-1gb-tor1-01:~#
