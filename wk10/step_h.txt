@@ -1,0 +1,3 @@
+step_h
+
+To mitigate the problem of HTML comments being visible inside the elements tab of the console, I converted the file to a php file and changed the comments to php comments. This way they are removed from the file when the file is interpreted

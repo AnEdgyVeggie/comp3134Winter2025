@@ -1,0 +1,5 @@
+step_d-5
+
+Here you can see the directory of the web server. This will show all the files hosted in the web directory, as well as an overview that they can go either up or down through it. 
+
+This gives malicious users the ability to view so that they can steal or inject files and/or data

